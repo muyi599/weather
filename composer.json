@@ -11,5 +11,12 @@
         "psr-4": {
             "Muyi599\\Weather\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muyi599\\Weather\\ServiceProvider"
+            ]
+        }
     }
 }
